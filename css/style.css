@@ -1943,14 +1943,59 @@ li.layer:nth-child(10) {
   top: 0;
   left: 0;
 }
+.static-bg{
+    display: none;
+}
 
-@media screen and (max-width: 10758px) {
+@media screen and (max-width: 1075px) {
 .wrapper{
     display: none;
 
 }
 #site-header{
-    background-color: #000; 
+    background-image: url(../images/sunset-30871450.jpg) ;
+    background-size: cover;
 }
+.footer-box-d{
+    display: none;
+}
+.static-bg{
+    display: block;
+}
+.quote{
+    font-size: 40px;
+    text-align: justify;
+}
+
+.title {
+  top: 84%;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.static-bg > div:nth-child(3) {
+  position: absolute;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.static-bg > div:nth-child(4) {
+  position: absolute;
+  top: 46%;
+  right: 5%;
+}
+
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.static-bg > div:nth-child(3) {
+  position: absolute;
+  top: 25%;
+  right: 2%;
+}
+.quoteDiv:hover{
+z-index: 10;
+}
+
 }
     

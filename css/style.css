@@ -1943,3 +1943,14 @@ li.layer:nth-child(10) {
   top: 0;
   left: 0;
 }
+
+@media screen and (max-width: 10758px) {
+.wrapper{
+    display: none;
+
+}
+#site-header{
+    background-color: #000; 
+}
+}
+    

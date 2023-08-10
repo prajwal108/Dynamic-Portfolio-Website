@@ -410,6 +410,7 @@ html, body{ height: 100%; }
     display: table-cell;
     vertical-align: middle;
     color: #fff;
+    width: max-content;
 }
 .banner-text h1 {
 	font-family: 'nautilus_pompiliusregular';
@@ -1995,7 +1996,7 @@ li.layer:nth-child(10) {
   top: 25%;
   right: 2%;
 }
-.quoteDiv:hover{
+div.quoteDiv:hover{
 z-index: 10;
 }
 

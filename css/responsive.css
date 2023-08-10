@@ -360,12 +360,35 @@ left: 323px;
 /* style.css | http://127.0.0.1:5500/css/style.css */
 
 @media screen and (max-width: 970px) {
+
+	body{
+		overflow-x: hidden;
+	}
   .wrapper1 {
     /* min-height: 32em; */
     /* top: 296%; */
     min-height: 46em;
     top: 550%;
   }
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+div.banner-text:nth-child(2) > div:nth-child(1) > h1:nth-child(1) > span:nth-child(1) {
+  position:fixed ;
+  top: 10%;
+  right: 24%;
+  width: max-content;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+div.banner-text:nth-child(2) > div:nth-child(1) > h1:nth-child(1) > span:nth-child(3) {
+  position: fixed;
+  top: 16%;
+  right: 7%;
+  width: max-content;
+}
+
   #dot-container {
   /* top: 517%; */
   /* right: 46%; */

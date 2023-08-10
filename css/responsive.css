@@ -389,10 +389,8 @@ div.banner-text:nth-child(2) > div:nth-child(1) > h1:nth-child(1) > span:nth-chi
 }
 
   #dot-container {
-  /* top: 517%; */
-  /* right: 46%; */
-      top: 938%;
-    right: 41%;
+  top: 846%;
+right: 36%;
 }
 }
 

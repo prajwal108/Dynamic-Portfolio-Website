@@ -2084,11 +2084,14 @@ button#prev {
 }
 @media screen and (max-width: 650px) {
   .wrapper1 {
-    font-size: 13px;
+    font-size: 10px;
   }
 }@media screen and (max-width: 970px) {
- #testimonial-container {
+    .wrapper1 {
 font-size: 10px;
+}
+ #testimonial-container {
+font-size: 11px;
 }
 /* style.css | http://127.0.0.1:5500/css/style.css */
 .testimonial-container:hover{
@@ -2173,7 +2176,7 @@ span.title-caption {
   }
   #blog div.container{
     position: relative;
-    top: -10%;
+    top: -5%;
   }
 }
 

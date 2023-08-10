@@ -252,12 +252,21 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 #site-header{
+    background-color: aliceblue;
 	background-attachment:fixed;
 	background-size:cover;
 	height:100vh;
 	min-height:100%;
 }
-#header{}
+#header{
+    width: 100%;
+    height: 80px; /* Adjust as needed */
+    background-color: transparent; /* Initial background color */
+    position: fixed;
+    top: 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
 .logo{
 	float:left;
 }
@@ -1967,8 +1976,14 @@ li.layer:nth-child(10) {
     text-align: justify;
 }
 
-.title {
-  top: 84%;
+
+@media screen and (max-width: 1075px) {
+  .title {
+    position: absolute;
+    top: 90%;
+    z-index: 1;
+    left: 7%;
+  }
 }
 
 /* Element | http://127.0.0.1:5500/index.html */
@@ -2207,4 +2222,11 @@ span.title-caption {
     top: 0;
     left: 0;
     /* Add any other styles you want for the ::before pseudo-element */
+}
+.quoteDiv {
+  position: absolute;
+  top: 13%;
+  right: 0%;
+  text-align: -moz-center;
+  cursor: pointer;
 }

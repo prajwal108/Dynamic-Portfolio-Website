@@ -113,3 +113,16 @@ window.onload = () => {
   startAutoCycle(); // Start auto-cycling when the page loads
 };
 
+
+window.addEventListener('scroll', function() {
+            var siteHeader = document.getElementById('site-header');
+            var header = document.getElementById('header');
+            var threshold = siteHeader.offsetHeight; /* Height of site-header */
+            
+            if (window.pageYOffset >= threshold) {
+                header.style.backgroundColor = "#0f0e0eed"; /* Semi-transparent black */
+
+            } else {
+                header.style.backgroundColor = 'transparent';
+            }
+          });

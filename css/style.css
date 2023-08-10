@@ -1,10 +1,4 @@
 /*------------------------------------------------------------------
-    File Name: style.css
-    Template Name: Landigoo
-    Created By: MelodyThemes
-    Envato Profile: http://themeforest.net/user/melodythemes
-    Website: https://melodythemes.com
-    Version: 1.0
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
@@ -1908,7 +1902,7 @@ transform: translate(50%, -50%);
 
  .banner span.block-title {
   position: absolute;
-  top: 30%;
+  top: 17%;
   left: 5%;
 }
 .quote{
@@ -1932,12 +1926,20 @@ li.layer:nth-child(10) {
 }
 
 }
-    
+    #blog{
+        background-image: url(../images/sunset-30871450.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
 #blog::before {
   content: '';
   display: inline-block;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.70);
   position: absolute;
   top: 0;
@@ -1998,4 +2000,187 @@ z-index: 10;
 }
 
 }
+
+
+/* bootstrap.min.css | http://127.0.0.1:5500/css/bootstrap.min.css */
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-top: 20px;
+}
+
     
+/*  */
+.wrapper1 {
+  background-color: #ffffff;
+  position: absolute;
+  width: 80vw;
+  max-width: 50em;
+min-height: 27em;
+  border-radius: 0.6em;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 306%;
+  box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+  display: flex;
+}
+.testimonial-container {
+  width: 85%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  padding: 1.8em 1.2em;
+}
+.wrapper1 button {
+  font-size: 1.8em;
+  height: 2.2em;
+  width: 2.2em;
+  background-color: #ffffff;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border: none;
+  color: #0a69ed;
+  box-shadow: 0 0 1em rgba(1, 17, 39, 0.25);
+  cursor: pointer;
+  border-radius: 50%;
+}
+button#next {
+  right: -1.1em;
+}
+button#prev {
+  left: -1.1em;
+}
+.testimonial-container p {
+  color: #8c8c90;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-style: normal;
+}
+.testimonial-container:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* .testimonial-container img {
+  display: block;
+  margin: 1.8em auto 1.25em auto;
+  border-radius: 50%;
+  width: 4.4em;
+} */
+.testimonial-container h3 {
+  color: #2d3d67;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 400;
+}
+.testimonial-container h6 {
+  color: #606872;;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .wrapper1 {
+    font-size: 13px;
+  }
+}@media screen and (max-width: 970px) {
+ 
+/* style.css | http://127.0.0.1:5500/css/style.css */
+
+.wrapper1 {
+
+  min-height: 32em;
+  top: 296%;
+}
+#dot-container {
+  display: ab;
+  position: absolute;
+  top: 900%;
+  right: 42%;
+}
+
+}
+#dot-container {
+  position: absolute;
+  top: 517%;
+  right: 46%;
+}
+
+
+/* Add this to your existing CSS styles */
+.dot-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #e75b1e;;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+span.title-caption {
+  width: 44%;
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left: -4%;
+}
+@media screen and (max-width: 970px) {
+ 
+/* style.css | http://127.0.0.1:5500/css/style.css */
+
+.banner span.block-title {
+  /* top: 30%; */
+  top: 17%;
+}
+
+/* style.css | http://127.0.0.1:5500/css/style.css?_cacheOverride=1691626540400 */
+
+span.title-caption {
+  /* top: 45%; */
+  top: 30%;
+}
+
+/* responsive.css | http://127.0.0.1:5500/css/responsive.css?_cacheOverride=1691626591615 */
+
+@media (max-width: 1000px) {
+  .banner span.block-title {
+    /* top: 14%; */
+    top: 6%;
+  }
+  #wrap {
+    /* top: 67%; */
+    top: 53%;
+  }
+}
+
+/* style.css | http://127.0.0.1:5500/css/style.css?_cacheOverride=1691626591615 */
+
+span.title-caption {
+  /* width: 44%; */
+  /* top: 30%; */
+  /* left: -4%; */
+  width: 100%;
+  top: 67%;
+  left: 1%;
+}
+
+    
+}

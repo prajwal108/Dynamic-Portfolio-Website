@@ -2089,9 +2089,11 @@ button#prev {
 }@media screen and (max-width: 970px) {
  
 /* style.css | http://127.0.0.1:5500/css/style.css */
-
+.testimonial-container:hover{
+    transform: scale(1.0);
+    cursor: pointer;
+}
 .wrapper1 {
-
   min-height: 32em;
   top: 296%;
 }
@@ -2166,6 +2168,10 @@ span.title-caption {
   #wrap {
     /* top: 67%; */
     top: 53%;
+  }
+  #blog div.container{
+    position: relative;
+    top: -10%;
   }
 }
 

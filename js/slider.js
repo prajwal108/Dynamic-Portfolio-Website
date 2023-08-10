@@ -112,3 +112,4 @@ window.onload = () => {
   updateDots();
   startAutoCycle(); // Start auto-cycling when the page loads
 };
+

@@ -1210,9 +1210,6 @@ img.about-main{
     left: 0;
 }
 
-.blog-main h2{
-	color:#ffffff;
-}
 
 .blog-box{
 	padding-top:20px;
@@ -2184,4 +2181,19 @@ span.title-caption {
 }
 
     
+}
+#s:hover .pajzsText::before {
+    content: "";
+    position: absolute;
+    top: -2rem;
+    left: 0rem;
+    /* Add any other styles you want for the ::before pseudo-element */
+}
+
+.pajzsText::before {
+    content: ""; /* Empty content to enable ::before pseudo-element */
+    position: relative; /* Relative position to the parent .pajzsText */
+    top: 0;
+    left: 0;
+    /* Add any other styles you want for the ::before pseudo-element */
 }

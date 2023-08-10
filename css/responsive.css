@@ -366,10 +366,8 @@ left: 323px;
 		overflow-x: hidden;
 	}
   .wrapper1 {
-    /* min-height: 32em; */
-    /* top: 296%; */
-    min-height: 46em;
-    top: 550%;
+   min-height: 42em;
+    top: 520%;
   }
 
 /* Element | http://127.0.0.1:5500/index.html */
@@ -393,8 +391,8 @@ div.banner-text:nth-child(2) > div:nth-child(1) > h1:nth-child(1) > span:nth-chi
   #dot-container {
   /* top: 517%; */
   /* right: 46%; */
-  top: 1009%;
-  right: 37%;
+      top: 938%;
+    right: 41%;
 }
 }
 

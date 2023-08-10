@@ -2087,7 +2087,9 @@ button#prev {
     font-size: 13px;
   }
 }@media screen and (max-width: 970px) {
- 
+ #testimonial-container {
+font-size: 10px;
+}
 /* style.css | http://127.0.0.1:5500/css/style.css */
 .testimonial-container:hover{
     transform: scale(1.0);

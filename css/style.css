@@ -2230,3 +2230,11 @@ span.title-caption {
   text-align: -moz-center;
   cursor: pointer;
 }
+
+
+#success-message {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(19, 107, 16, 0.728);
+  font-weight: 600;
+}
